@@ -1,0 +1,198 @@
+﻿<GroundTypes>
+  <Ground type="0x86" id="shtrs broken stair 1">
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x42e</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x87" id="shtrs broken stair 2">
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x42f</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x88" id="shtrs broken stair 3">
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x430</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x89" id="shtrs broken stair 4">
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x431</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x8a" id="shtrs broken stair 5">
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x432</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x8b" id="shtrs broken stair 6">
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x433</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x8c" id="shtrs broken stair 7">
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x434</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x8d" id="shtrs broken stair 8">
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x435</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x8e" id="shtrs broken stair 9">
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x436</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x8f" id="shtrs Shattered Floor">
+    <RandomTexture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x467</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x468</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x469</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x46a</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x46b</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x46c</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x46d</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x46e</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>1</BlendPriority>
+  </Ground>
+  <Ground type="0x12" id="shtrs Disaster Floor">
+    <RandomTexture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x46f</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x470</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x471</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x472</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>1</BlendPriority>
+  </Ground>
+  <Ground type="0x20" id="shtrs Maze Floor 1">
+    <Texture>
+      <File>lofiEnvironment3</File>
+      <Index>0xdc</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>lofiEnvironment3</File>
+        <Index>0xdc</Index>
+      </Texture>
+    </Top>
+    <NoWalk/>
+  </Ground>
+  <Ground type="0x27" id="shtrs Maze Floor 2">
+    <Texture>
+      <File>lofiEnvironment3</File>
+      <Index>0xdc</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>lofiEnvironment3</File>
+        <Index>0xdc</Index>
+      </Texture>
+    </Top>
+  </Ground>
+  <Ground type="0x37" id="shtrs Pure Evil">
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x447</Index>
+    </Texture>
+    <Animate dx=".35">Flow</Animate>
+    <RandomOffset/>
+    <NoWalk/>
+    <BlendPriority>1</BlendPriority>
+  </Ground>
+  <Ground type="0x38" id="shtrs Bridge">
+    <RandomTexture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x473</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x474</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x475</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x476</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x477</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>1</BlendPriority>
+  </Ground>
+  <Ground type="0x39" id="Hot Lava">
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x483</Index>
+    </Texture>
+    <MinDamage>70</MinDamage>
+    <MaxDamage>80</MaxDamage>
+    <Animate dx=".33" dy=".33">Flow</Animate>
+    <Sink/>
+    <Speed>.777</Speed>
+  </Ground>
+  <Ground type="0x3a" id="Pure Evil">
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x447</Index>
+    </Texture>
+    <MinDamage>70</MinDamage>
+    <MaxDamage>80</MaxDamage>
+    <Animate dx=".35">Flow</Animate>
+    <Sink/>
+    <RandomOffset/>
+    <Speed>.333</Speed>
+    <BlendPriority>1</BlendPriority>
+  </Ground>
+</GroundTypes>

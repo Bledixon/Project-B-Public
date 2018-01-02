@@ -1,0 +1,5 @@
+Robobuddy			=> Paladin		= id: 300
+Ancient Knight		=> Knight		= id: 301
+Mage Soul			=> Wizard		= id: 302
+Gladiator			=> Warrior		= id: 303
+Spellbinder			=> Necromancer	= id: 304

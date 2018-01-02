@@ -1,0 +1,68 @@
+*...not fixed
+X...fixed
+
+* events 
+* dungeons 
+* item enhancement system
+* vault customisation
+* vault upgrades
+* item reforge system (rings/armor too)
+* better pet system
+* PDG implementation (was on the source already, not really sure what this is..)
+* Backpacks (3/4 done)
+ - A backpack item to xml data files. (the object description of the backpack consumable that gives a user the backpack).
+ - Make sure the client supports backpacks (the extra inventory space, tab selection, etc..).
+ - In the server, handle the UseItemPacket properly. The stuff you'll need to edit is found in the Player.UseItem.cs file (at least for most sources it is).
+ - Make sure player inventories can handle 20 slots.
+ - Make flag for backpack in Player class to indicate if the player has a backpack or not.
+ - Create a entry for backpacks on character database info.
+ - make sure to save that the user has a backpack after one uses.
+* toggable chat
+X (dynamic) wheater system
+* Achievements
+X The Stat Problem (http://prnt.sc/b8sbr9)
+ - if you take a look at the commits you'll find one called something like "StatExport", it didn't work that well because it reset things like slots, sized, portals, ...
+   however, I'm pretty sure that the basic system worked since ossi claimed that he wrote it
+* Grim Reaper is Donor only for some stupid reason
+X Auto restart message 
+* If item does not exist simply delete it in player inv / vault 
+* Complete Guild rework
+ - Fix Guild Hall
+ - add more Guild activites
+* New Cloths
+* Redo leveling system
+ - basically leveling up is pretty bugged since you don't start at 0 xp @level > 20
+* Night-Day circulation (could rip it from fabs source)
+ - It changes the client depending on what your time is
+ - so lets say it’s 8 pm and you client starts to get “darker” or in some kind of “night mode” so it’s easier to read and doesn’t hurt your eyes
+ - Same for day mode where it’s all bright n stuff
+ - https://www.youtube.com/watch?v=Q3-yThrMGlQ
+X better snow / rain effects (client side)
+* Ignore list..?
+* Racing Dung 
+ - A dungeon where you race against your friends
+ - maybe a test chest with 1 hp at the end so the first attacker will get the lewtz?
+* Redo the music to be more fitting
+* make /sc muteable
+X Fix the /sc kick
+X Fix the renaming of items to chars the server can't regocnize
+* ...
+
+Skins:
+http://www.binaryhexconverter.com/hex-to-decimal-converter
+
+
+rank:
+
+
+Phoph's list
+------------
+uhh lemme list out all the things that can be improved in state management of the server
+
+1.) delta compression (this is not sending the stattypes if they are mirrored on the client ack)
+2.) probably better set management (lists are pretty standard but if you're really aching for speed im sure you can do something with arrays)
+3.) export less stats
+4.) lower tps where it's plausible (too low makes simulation shit itself)
+5.) update throttling in castle, WC, nexus, and other high-volume player locations
+6.) bitfielding the stats that ARE exported (pretty implausible in TCP)
+7.) not using TCP because it's garbage for this

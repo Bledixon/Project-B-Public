@@ -1,0 +1,511 @@
+﻿<Objects>
+
+  <Object type="0x4500" id="Thorn Dragco Nimissime">
+    <Group>Dragons</Group>
+    <Enemy/>
+    <Class>Character</Class>
+    <Flying/>
+    <Quest/>
+    <God/>
+    <StasisImmune/>
+    <PerRealmMax>4</PerRealmMax>
+
+    <AnimatedTexture>
+      <File>chars16x16custom</File>
+      <Index>23</Index>
+    </AnimatedTexture>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+
+
+    <MaxHitPoints>350000</MaxHitPoints>
+    <Size>200</Size>
+    <Defense>120</Defense>
+    <XpMult>2.5</XpMult>
+
+
+    <Projectile id="0">
+      <ObjectId>White Bullet</ObjectId>
+      <Speed>75</Speed>
+      <Damage>120</Damage>
+      <Size>120</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <ArmorPiercing/>
+      <MultiHit/>
+    </Projectile>
+
+    <Projectile id="1">
+      <ObjectId>Super Blast Red</ObjectId>
+      <Speed>60</Speed>
+      <Damage>200</Damage>
+      <Size>140</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <ConditionEffect duration="2.4">Weak</ConditionEffect>
+      <MultiHit/>
+    </Projectile>
+
+    <Projectile id="2">
+      <ObjectId>Snake Shot</ObjectId>
+      <Speed>60</Speed>
+      <Damage>100</Damage>
+      <Size>140</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <ConditionEffect duration="2.4">Armor Broken</ConditionEffect>
+      <MultiHit/>
+
+    </Projectile>
+
+  </Object>
+
+  <Object type="0x4501" id="Thorns Knight">
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8dEncounters</File>
+      <Index>27</Index>
+    </AnimatedTexture>
+    <HitSound>monster/blobs_death</HitSound>
+    <DeathSound>monster/blobs_hit</DeathSound>
+    <Size>120</Size>
+    <ShadowSize>80</ShadowSize>
+    <MaxHitPoints>50000</MaxHitPoints>
+    <Defense>100</Defense>
+    <God/>
+    <Quest/>
+    <Projectile id="0">
+      <ObjectId>White Bullet</ObjectId>
+      <Damage>200</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>20000</LifetimeMS>
+      <Size>200</Size>
+    </Projectile>
+  </Object>
+
+  <Object type="0x4503" id="Raid Spawner">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x0e</Index>
+    </Texture>
+    <Size>0</Size>
+    <Defense>0</Defense>
+    <XpMult>0.0</XpMult>
+    <NoMiniMap />
+    <MaxHitPoints>9999999</MaxHitPoints>
+  </Object>
+
+  <Object type="0x4502" id="Raid Mob">
+    <Group>Heros</Group>
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>46</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flaming_skulls_hit</HitSound>
+    <DeathSound>monster/flaming_skulls_death</DeathSound>
+    <Size>120</Size>
+    <MaxHitPoints>100000</MaxHitPoints>
+    <Defense>12</Defense>
+    <Flying/>
+    <God/>
+    <Level>20</Level>
+    <XpMult>0.0</XpMult>
+
+
+    <Projectile id="0">
+      <ObjectId>Small White Blast</ObjectId>
+      <Damage>150</Damage>
+      <Speed>75</Speed>
+      <LifetimeMS>100000</LifetimeMS>
+      <Size>200</Size>
+    </Projectile>
+
+  </Object>
+
+  <Object type="0x4504" id="Raid Two Spawner">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x0e</Index>
+    </Texture>
+    <Size>0</Size>
+    <Defense>0</Defense>
+    <XpMult>0.0</XpMult>
+    <NoMiniMap />
+    <MaxHitPoints>9999999</MaxHitPoints>
+  </Object>
+
+  <Object type="0x4505" id="Raid Mob Two">
+    <Group>Heros</Group>
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>46</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flaming_skulls_hit</HitSound>
+    <DeathSound>monster/flaming_skulls_death</DeathSound>
+    <Size>120</Size>
+    <MaxHitPoints>100000</MaxHitPoints>
+    <Defense>12</Defense>
+    <Flying/>
+    <God/>
+    <Level>20</Level>
+    <XpMult>0.0</XpMult>
+
+
+    <Projectile id="0">
+      <ObjectId>Small White Blast</ObjectId>
+      <Damage>150</Damage>
+      <Speed>75</Speed>
+      <LifetimeMS>100000</LifetimeMS>
+      <Size>200</Size>
+    </Projectile>
+
+  </Object>
+
+  <Object type="0x4506" id="Richard_epc">
+    <DisplayId>Richard Smitty Werbenjagermanjensen</DisplayId>
+    <Group>Pirate</Group>
+    <Enemy/>
+    <Class>Character</Class>
+    <Flying/>
+    <Quest/>
+    <God/>
+    <StasisImmune/>
+
+    <AnimatedTexture>
+      <File>custom16x16</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+
+
+    <MaxHitPoints>350000</MaxHitPoints>
+    <Size>200</Size>
+    <Defense>120</Defense>
+    <XpMult>2.0</XpMult>
+
+
+    <Projectile id="0">
+      <ObjectId>Doubloon Proj</ObjectId>
+      <Speed>60</Speed>
+      <Damage>175</Damage>
+      <Size>120</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <MultiHit/>
+    </Projectile>
+
+    <Projectile id="1">
+      <ObjectId>Black Ball</ObjectId>
+      <Speed>60</Speed>
+      <Damage>400</Damage>
+      <Size>200</Size>
+      <LifetimeMS>2800</LifetimeMS>
+      <ConditionEffect duration="5.0">Weak</ConditionEffect>
+      <MultiHit/>
+    </Projectile>
+
+    <Projectile id="2">
+      <ObjectId>Vortex</ObjectId>
+      <Speed>60</Speed>
+      <Damage>250</Damage>
+      <Size>250</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <ConditionEffect duration="2.0">Weak</ConditionEffect>
+      <MultiHit/>
+    </Projectile>
+
+    <Projectile id="3">
+      <ObjectId>Blade</ObjectId>
+      <Speed>100</Speed>
+      <Damage>200</Damage>
+      <Size>140</Size>
+      <LifetimeMS>100</LifetimeMS>
+      <ConditionEffect duration="3.0">Slowed</ConditionEffect>
+      <MultiHit/>
+
+    </Projectile>
+
+  </Object>
+
+  <Object type="0x4507" id="Cannon_epc">
+    <Enemy/>
+    <Class>Character</Class>
+    <Texture>
+      <File>extraEnvironment</File>
+      <Index>0x1df</Index>
+    </Texture>
+    <HitSound>monster/blobs_death</HitSound>
+    <DeathSound>monster/blobs_hit</DeathSound>
+    <Size>150</Size>
+    <MaxHitPoints>500000000</MaxHitPoints>
+    <Defense>0</Defense>
+    <God/>
+    <Quest/>
+    <Projectile id="0">
+      <ObjectId>Giant Cannonball</ObjectId>
+      <Damage>200</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>20000</LifetimeMS>
+      <Size>200</Size>
+    </Projectile>
+  </Object>
+
+  <Object type="0x4508" id="Elder Cave Pirate Sailor">
+    <Group>Cave Pirates</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar28x8</File>
+      <Index>0x03</Index>
+    </Texture>
+    <HitSound>monster/cave_pirates_hit</HitSound>
+    <DeathSound>monster/cave_pirates_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>5500</MaxHitPoints>
+    <Defense>0</Defense>
+    <Projectile id="0">
+      <ObjectId>Blade</ObjectId>
+      <Damage>90</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>600</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x4509" id="Elder Pirate Commander">
+    <Group>Cave Pirate Bosses</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar28x8</File>
+      <Index>0x05</Index>
+    </Texture>
+    <HitSound>monster/pirates_hit</HitSound>
+    <DeathSound>monster/pirates_death</DeathSound>
+    <Size>110</Size>
+    <MaxHitPoints>7500</MaxHitPoints>
+    <Defense>0</Defense>
+    <Projectile id="0">
+      <ObjectId>Black Ball</ObjectId>
+      <Damage>100</Damage>
+      <Speed>180</Speed>
+      <LifetimeMS>500</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x4510" id="Elder Pirate Captain">
+    <Group>Cave Pirate Bosses</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar28x8</File>
+      <Index>0x06</Index>
+    </Texture>
+    <HitSound>monster/pirates_hit</HitSound>
+    <DeathSound>monster/pirates_death</DeathSound>
+    <Size>115</Size>
+    <MaxHitPoints>8500</MaxHitPoints>
+    <Defense>0</Defense>
+    <Projectile id="0">
+      <ObjectId>Black Ball</ObjectId>
+      <Damage>120</Damage>
+      <Speed>180</Speed>
+      <LifetimeMS>500</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x4511" id="Elder Pirate Admiral">
+    <Group>Cave Pirate Bosses</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar28x8</File>
+      <Index>0x07</Index>
+    </Texture>
+    <HitSound>monster/pirates_hit</HitSound>
+    <DeathSound>monster/pirates_death</DeathSound>
+    <Size>120</Size>
+    <MaxHitPoints>9500</MaxHitPoints>
+    <Defense>0</Defense>
+    <Projectile id="0">
+      <ObjectId>Black Ball</ObjectId>
+      <Damage>140</Damage>
+      <Speed>180</Speed>
+      <LifetimeMS>500</LifetimeMS>
+    </Projectile>
+  </Object>
+
+  <Object type="0x4512" id="Elder Lord of the Lost Lands">
+    <Group>Knights of the Lost Lands</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <Hero />
+    <Quest />
+    <God />
+    <StasisImmune/>
+    <StunImmune/>
+    <ParalyzeImmune/>
+    <Encounter />
+    <StasisImmune />
+    <Level>20</Level>
+    <PerRealmMax>5</PerRealmMax>
+
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>14</Index>
+    </AnimatedTexture>
+
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>chars16x16dEncounters</File>
+        <Index>15</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>chars16x16dEncounters</File>
+        <Index>16</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>chars16x16dEncounters</File>
+        <Index>17</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>chars16x16dEncounters</File>
+        <Index>18</Index>
+      </AnimatedTexture>
+    </AltTexture>
+
+
+    <HitSound>monster/golems_hit</HitSound>
+    <DeathSound>monster/beholder_death</DeathSound>
+
+    <MaxHitPoints>350000</MaxHitPoints>
+
+    <Projectile id="0">
+      <ObjectId>White Beam</ObjectId>
+      <Speed>83</Speed>
+      <Damage>195</Damage>
+      <Size>160</Size>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Vortex</ObjectId>
+      <Speed>35</Speed>
+      <Damage>450</Damage>
+      <Size>300</Size>
+      <LifetimeMS>5000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <Amplitude>0.1</Amplitude>
+      <Frequency>50</Frequency>
+      <ConditionEffect duration="5">Bleeding</ConditionEffect>
+    </Projectile>
+
+    <Size>200</Size>
+    <Defense>125</Defense>
+    <XpMult>0.3</XpMult>
+
+
+  </Object>
+
+  <Object type="0x4513" id="Elder Protection Crystal">
+    <Group>Knights of the Lost Lands</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <StasisImmune />
+
+    <AnimatedTexture>
+      <File>chars8x8dEncounters</File>
+      <Index>13</Index>
+    </AnimatedTexture>
+
+    <HitSound>monster/dragons_hit</HitSound>
+    <DeathSound>monster/flying_brain_death</DeathSound>
+    <MaxHitPoints>30000</MaxHitPoints>
+    <Projectile id="0">
+      <ObjectId>Ice Burst</ObjectId>
+      <Speed>60</Speed>
+      <Damage>125</Damage>
+      <Size>80</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+
+    <Size>150</Size>
+    <Defense>15</Defense>
+    <XpMult>0.0</XpMult>
+
+  </Object>
+
+  <Object type="0x4514" id="Elder Knight of the Lost Lands">
+    <Group>Knights of the Lost Lands</Group>
+    <Enemy />
+    <Class>Character</Class>
+
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>10</Index>
+    </AnimatedTexture>
+
+    <HitSound>monster/skeletons_hit</HitSound>
+    <DeathSound>monster/dwarves_death</DeathSound>
+    <MaxHitPoints>25000</MaxHitPoints>
+    <Projectile id="0">
+      <ObjectId>Pink Blast</ObjectId>
+      <Speed>75</Speed>
+      <Damage>180</Damage>
+      <Size>80</Size>
+      <LifetimeMS>1500</LifetimeMS>
+    </Projectile>
+    <Size>150</Size>
+    <Defense>0</Defense>
+    <XpMult>0.1</XpMult>
+
+
+  </Object>
+
+  <Object type="0x4515" id="Elder Guardian of the Lost Lands">
+    <Group>Knights of the Lost Lands</Group>
+    <Enemy />
+    <Class>Character</Class>
+
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>19</Index>
+    </AnimatedTexture>
+
+    <HitSound>monster/dwarves_hit</HitSound>
+    <DeathSound>monster/flying_brain_death</DeathSound>
+
+    <MaxHitPoints>8000</MaxHitPoints>
+
+    <Projectile id="0">
+      <ObjectId>Blue Blast</ObjectId>
+      <Speed>60</Speed>
+      <Damage>200</Damage>
+      <Size>120</Size>
+      <LifetimeMS>1800</LifetimeMS>
+
+    </Projectile>
+
+    <Projectile id="1">
+      <ObjectId>Ice Triangle</ObjectId>
+      <Speed>60</Speed>
+      <Damage>210</Damage>
+      <Size>120</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+    </Projectile>
+
+    <Size>130</Size>
+    <Defense>10</Defense>
+    <XpMult>0.2</XpMult>
+
+
+  </Object>
+
+</Objects>

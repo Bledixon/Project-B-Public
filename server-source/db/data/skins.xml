@@ -1,0 +1,755 @@
+﻿<Objects>
+   <Object type="0x0340" id="Robobuddy">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>0</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0304</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Robobuddy</DisplayId>
+   </Object>
+   <Object type="0x0341" id="Bandit">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>1</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0300</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Bandit</DisplayId>
+   </Object>
+   <Object type="0x0342" id="Robin Hood">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>2</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0301</PlayerClassType>
+      <UnlockLevel>5</UnlockLevel>
+      <DisplayId>Robin Hood</DisplayId>
+   </Object>
+   <Object type="0x0343" id="Merlin">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>3</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0302</PlayerClassType>
+      <UnlockLevel>10</UnlockLevel>
+      <DisplayId>Merlin</DisplayId>
+   </Object>
+   <Object type="0x0344" id="Traditional">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>4</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0303</PlayerClassType>
+      <UnlockLevel>10</UnlockLevel>
+      <DisplayId>Traditional</DisplayId>
+   </Object>
+   <Object type="0x0345" id="Juggernaut">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>5</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0304</PlayerClassType>
+      <UnlockLevel>10</UnlockLevel>
+      <DisplayId>Juggernaut</DisplayId>
+   </Object>
+   <Object type="0x0346" id="Knight of the Round">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>6</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0305</PlayerClassType>
+      <UnlockLevel>10</UnlockLevel>
+      <DisplayId>Knight of the Round</DisplayId>
+   </Object>
+   <Object type="0x0347" id="Decorated Paladin">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>7</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0306</PlayerClassType>
+      <UnlockLevel>10</UnlockLevel>
+      <DisplayId>Decorated Paladin</DisplayId>
+   </Object>
+   <Object type="0x0348" id="Stealth">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>8</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0307</PlayerClassType>
+      <UnlockLevel>10</UnlockLevel>
+      <DisplayId>Stealth</DisplayId>
+   </Object>
+   <Object type="0x0349" id="Death Mage">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>9</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0308</PlayerClassType>
+      <UnlockLevel>10</UnlockLevel>
+      <DisplayId>Death Mage</DisplayId>
+   </Object>
+   <Object type="0x034a" id="Amazonian">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>10</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0309</PlayerClassType>
+      <UnlockLevel>10</UnlockLevel>
+      <DisplayId>Amazonian</DisplayId>
+   </Object>
+   <Object type="0x034b" id="Seer">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>11</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x030a</PlayerClassType>
+      <UnlockLevel>10</UnlockLevel>
+      <DisplayId>Seer</DisplayId>
+   </Object>
+   <Object type="0x034c" id="Loki">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>12</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x030b</PlayerClassType>
+      <UnlockLevel>10</UnlockLevel>
+      <DisplayId>Loki</DisplayId>
+   </Object>
+   <Object type="0x034d" id="Warlock">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>13</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x030c</PlayerClassType>
+      <UnlockLevel>10</UnlockLevel>
+      <DisplayId>Warlock</DisplayId>
+   </Object>
+   <Object type="0x034e" id="Shadow">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>14</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x030d</PlayerClassType>
+      <UnlockLevel>10</UnlockLevel>
+      <DisplayId>Shadow</DisplayId>
+   </Object>
+   <Object type="0x034f" id="Elder Wizard">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>15</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0302</PlayerClassType>
+      <UnlockLevel>15</UnlockLevel>
+      <DisplayId>Elder Wizard</DisplayId>
+   </Object>
+   <Object type="0x0350" id="Robed Priest">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>16</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0303</PlayerClassType>
+      <UnlockLevel>15</UnlockLevel>
+      <DisplayId>Robed Priest</DisplayId>
+   </Object>
+   <Object type="0x0351" id="Santa">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>17</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0302</PlayerClassType>
+      <UnlockLevel>1</UnlockLevel>
+      <DisplayId>Santa</DisplayId>
+   </Object>
+   <Object type="0x0352" id="Little Helper">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>18</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0301</PlayerClassType>
+      <UnlockLevel>1</UnlockLevel>
+      <DisplayId>Little Helper</DisplayId>
+   </Object>
+   <Object type="0x0353" id="Father Time">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>19</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0303</PlayerClassType>
+      <UnlockLevel>1</UnlockLevel>
+      <DisplayId>Father Time</DisplayId>
+   </Object>
+   <Object type="0x0354" id="Down Under">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>20</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0304</PlayerClassType>
+      <UnlockLevel>1</UnlockLevel>
+      <DisplayId>Down Under</DisplayId>
+   </Object>
+   <Object type="0x0355" id="Founding Father">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>21</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0306</PlayerClassType>
+      <UnlockLevel>1</UnlockLevel>
+      <DisplayId>Founding Father</DisplayId>
+   </Object>
+   <Object type="0x0356" id="Cupid">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>22</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0301</PlayerClassType>
+      <UnlockLevel>1</UnlockLevel>
+      <DisplayId>Cupid</DisplayId>
+   </Object>
+   <Object type="0x0357" id="Agent">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>23</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0307</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Agent</DisplayId>
+   </Object>
+   <Object type="0x0358" id="Shoveguy">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>24</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0304</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Shoveguy</DisplayId>
+   </Object>
+   <Object type="0x0359" id="Nun">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>25</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0303</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Nun</DisplayId>
+   </Object>
+   <Object type="0x035a" id="Holy Avenger">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>26</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0306</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Holy Avenger</DisplayId>
+   </Object>
+   <Object type="0x035b" id="Kunoichi">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>27</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x030d</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Kunoichi</DisplayId>
+   </Object>
+   <Object type="0x035c" id="Gentleman">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>28</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0302</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Gentleman</DisplayId>
+   </Object>
+   <Object type="0x035d" id="Ranger">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>29</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0301</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Ranger</DisplayId>
+   </Object>
+   <Object type="0x035e" id="Crusader">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>30</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0305</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Crusader</DisplayId>
+   </Object>
+   <Object type="0x035f" id="Brigand">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>31</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0300</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Brigand</DisplayId>
+   </Object>
+   <Object type="0x0360" id="Witch Doctor">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>32</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0308</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Witch Doctor</DisplayId>
+   </Object>
+   <Object type="0x0361" id="Sorceress">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>33</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x030c</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Sorceress</DisplayId>
+   </Object>
+   <Object type="0x0362" id="Scarlett">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>34</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0309</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Scarlett</DisplayId>
+   </Object>
+   <Object type="0x0363" id="Deadly Vixen">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>35</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x030b</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Deadly Vixen</DisplayId>
+   </Object>
+   <Object type="0x0364" id="Bashing Bride">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>36</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0306</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Bashing Bride</DisplayId>
+   </Object>
+   <Object type="0x0365" id="Eligible Bachelor">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>37</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0300</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Eligible Bachelor</DisplayId>
+   </Object>
+   <Object type="0x0366" id="Artemis">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>38</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0309</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Artemis</DisplayId>
+   </Object>
+   <Object type="0x0367" id="Harsh">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>39</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0305</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Harsh</DisplayId>
+   </Object>
+   <Object type="0x0368" id="Bodeful">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>40</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0304</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Bodeful</DisplayId>
+   </Object>
+   <Object type="0x0369" id="Pudge">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>41</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x030b</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Pudge</DisplayId>
+   </Object>
+   <Object type="0x036a" id="B.B. Wolf">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>42</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0304</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>B.B. Wolf</DisplayId>
+   </Object>
+   <Object type="0x036b" id="Lil Red">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>43</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x030a</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Lil Red</DisplayId>
+   </Object>
+   <Object type="0x036c" id="King Knifeula">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>44</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x030b</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>King Knifeula</DisplayId>
+   </Object>
+   <Object type="0x036d" id="The Unknown">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>45</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0308</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>The Unknown</DisplayId>
+   </Object>
+   <Object type="0x036e" id="Hero">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>46</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0304</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Hero</DisplayId>
+   </Object>
+   <Object type="0x036f" id="Pyramid Revenant">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>47</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0305</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Pyramid Revenant</DisplayId>
+   </Object>
+   <Object type="0x0370" id="Morning Star">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>48</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0302</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Morning Star</DisplayId>
+   </Object>
+   <Object type="0x0371" id="Chemist">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>49</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0307</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Chemist</DisplayId>
+   </Object>
+   <Object type="0x0372" id="Theresa">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>50</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0300</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Theresa</DisplayId>
+   </Object>
+   <Object type="0x0373" id="Renfield">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>51</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0308</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Renfield</DisplayId>
+   </Object>
+   <Object type="0x0374" id="Nexus no Miko">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>52</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0309</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Nexus no Miko</DisplayId>
+   </Object>
+   <Object type="0x0375" id="Hobbit">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>53</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0300</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Hobbit</DisplayId>
+   </Object>
+   <Object type="0x0376" id="Drow Trickster">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>54</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x030b</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Drow Trickster</DisplayId>
+   </Object>
+   <Object type="0x0377" id="Witch">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>55</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0302</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Witch</DisplayId>
+   </Object>
+  <Object type="0x0379" id="Succubus">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>57</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x030a</PlayerClassType>
+    <UnlockLevel>0</UnlockLevel>
+    <DisplayId>Succubus</DisplayId>
+  </Object>
+  <Object type="0x0380" id="Oryx Minion test">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins16x16</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0304</PlayerClassType>
+    <UnlockLevel>0</UnlockLevel>
+    <DisplayId>Oryx Minion</DisplayId>
+  </Object>
+<Object type="0x0381" id="3DS">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+        <File>playerskins32x32</File>
+        <Index>0</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0304</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>3DS</DisplayId>
+    </Object>
+<Object type="0x0382" id="Pokemon">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+        <File>playerskins32x32</File>
+        <Index>1</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x030a</PlayerClassType>
+      <UnlockLevel>0</UnlockLevel>
+      <DisplayId>Pokemon</DisplayId>
+    </Object>
+  <Object type="0x0383" id="Bledtastic Skin">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins16x16</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0304</PlayerClassType>
+    <DisplayId>$$$</DisplayId>
+  </Object>
+  <Object type="0x0384" id="Sheepin Awesome">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>58</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x030b</PlayerClassType>
+    <DisplayId>Sheepin Awesome</DisplayId>
+  </Object>
+  <Object type="0x0385" id="Penguin Knight">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>62</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0305</PlayerClassType>
+    <DisplayId>Penguin Knight</DisplayId>
+  </Object>
+  <Object type="0x0386" id="Mini Thessal">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>63</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0309</PlayerClassType>
+    <DisplayId>Mini Thessal</DisplayId>
+  </Object>
+  <Object type="0x0387" id="Hero of Time">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>64</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0305</PlayerClassType>
+    <DisplayId>Hero of Time</DisplayId>
+  </Object>
+
+  <!--Halloween-->
+
+  <Object type="0x0388" id="Pathfinder">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>65</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0302</PlayerClassType>
+    <DisplayId>Pathfinder</DisplayId>
+  </Object>
+  <Object type="0x0389" id="Lil' Davy">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>66</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x030b</PlayerClassType>
+    <DisplayId>Lil' Davy</DisplayId>
+  </Object>
+  <Object type="0x038a" id="Lil' Stone Guardian">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>67</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0304</PlayerClassType>
+    <DisplayId>Lil' Stone Guardian</DisplayId>
+  </Object>
+  <Object type="0x038b" id="Being of the Night">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>68</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0301</PlayerClassType>
+    <DisplayId>Being of the Night</DisplayId>
+  </Object>
+</Objects>

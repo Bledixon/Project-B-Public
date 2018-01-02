@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://C:/Users/Skilly/Desktop/Project B/Project-b-master/Exp/Exp.iml" filepath="C:/Users/Skilly/Desktop/Project B/Project-b-master/Exp/Exp.iml" />
+      <module fileurl="file://C:/Users/Skilly/Desktop/Project B/Project-b-master/ProdClient/ProdClient.iml" filepath="C:/Users/Skilly/Desktop/Project B/Project-b-master/ProdClient/ProdClient.iml" />
+      <module fileurl="file://C:/Users/Skilly/Desktop/Project B/Project-b-master/ProdClient2/ProdClient.iml" filepath="C:/Users/Skilly/Desktop/Project B/Project-b-master/ProdClient2/ProdClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RealmClient.iml" filepath="$PROJECT_DIR$/RealmClient.iml" />
+      <module fileurl="file://C:/Users/Skilly/Desktop/Project B/Project-b-master/Rotmg123.5.1/Rotmg123.5.1.iml" filepath="C:/Users/Skilly/Desktop/Project B/Project-b-master/Rotmg123.5.1/Rotmg123.5.1.iml" />
+    </modules>
+  </component>
+</project>

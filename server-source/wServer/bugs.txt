@@ -1,0 +1,7 @@
+    That odd def bug?? Stuff dies to 2 stuns??
+	Enemy shots pierce destructible walls, damaging players, but no red damage text shows!
+	Enemies walks through objects
+	Guild Merchants doesn’t send buy packet
+	Guild Directory doesn’t update after command was sent
+	Player Tags <— investigate
+	Realm player counter (RealmName (players / maxPlayers) doesn’t work

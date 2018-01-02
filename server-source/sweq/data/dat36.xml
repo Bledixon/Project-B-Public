@@ -1,0 +1,134 @@
+﻿<Objects>
+	
+<Environment>
+		
+<Object type="0x2000" id="Gauntlet Portal" ext="true">
+      <DisplayId>The Gauntlet</DisplayId>
+      <Class>Portal</Class>
+      <IntergamePortal />
+      <DungeonName>The Gauntlet</DungeonName>
+      <Texture>
+        <File>extraEnvironment</File>
+        <Index>0x100</Index>
+      </Texture>
+    </Object>
+    <Object type="0x2001" id="PVP Portal" ext="true">
+      <DisplayId>PVP Arena</DisplayId>
+      <Class>Portal</Class>
+      <IntergamePortal />
+      <DungeonName>PVP Arena</DungeonName>
+      <Texture>
+        <File>extraEnvironment</File>
+        <Index>0x100</Index>
+      </Texture>
+    </Object>
+    <Object type="0x2002" id="Testing and Stuff" ext="true">
+      <DisplayId>Testing and Stuff</DisplayId>
+      <Class>Portal</Class>
+      <IntergamePortal />
+      <DungeonName>Testing and Stuff</DungeonName>
+      <Texture>
+        <File>extraEnvironment</File>
+        <Index>0x100</Index>
+      </Texture>
+    </Object>
+    <Object type="0x2003" id="Duel Portal" ext="true">
+      <DisplayId>Duel Arena</DisplayId>
+      <Class>Portal</Class>
+      <IntergamePortal />
+      <DungeonName>Duel Arena</DungeonName>
+      <Texture>
+        <File>extraEnvironment</File>
+        <Index>0x100</Index>
+      </Texture>
+    </Object>
+    <Object type="0x2004" id="Wine Cellar Portal" ext="true">
+      <DisplayId>Wine Cellar</DisplayId>
+      <Class>Portal</Class>
+      <IntergamePortal />
+      <DungeonName>Wine Cellar</DungeonName>
+      <Texture>
+        <File>portals8x8</File>
+        <Index>0x18</Index>
+      </Texture>
+    </Object>
+	<Object type="0x2006" id="Elder Wine Cellar Portal" ext="true">
+      <DisplayId>Elder Wine Cellar</DisplayId>
+      <Class>Portal</Class>
+      <IntergamePortal />
+      <DungeonName>Elder Wine Cellar</DungeonName>
+      <Texture>
+        <File>portals8x8</File>
+        <Index>0x18</Index>
+      </Texture>
+    </Object>
+	<Object type="0x2008" id="Xp Spawn Portal" ext="true">
+      <DisplayId>XP Cellar</DisplayId>
+      <Class>Portal</Class>
+      <IntergamePortal />
+      <DungeonName>Xp Spawn</DungeonName>
+      <Texture>
+        <File>portals8x8</File>
+        <Index>0x18</Index>
+      </Texture>
+    </Object>
+
+</Environment>
+
+<ItemGroup type="key">
+	
+      <Object type="0x22ff" id="Wine Cellar Key" ext="true">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+          <File>extraEnvironment</File>
+          <Index>0x000</Index>
+        </Texture>
+        <SlotType>10</SlotType>
+        <Description>A key which opens a portal to Oryx Wine Cellar. (Open Beta Only)</Description>
+        <Sound>use_key</Sound>
+        <BagType>4</BagType>
+        <Consumable />
+        <Activate id="Wine Cellar Portal" ext="true">Create</Activate>
+      </Object>
+  	  <Object type="0x2300" id="Elder Wine Cellar Key" ext="true">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+          <File>extraEnvironment</File>
+          <Index>0x000</Index>
+        </Texture>
+        <SlotType>10</SlotType>
+        <Description>A key which opens a portal to Oryx final form... (Open Beta Only)</Description>
+        <Sound>use_key</Sound>
+        <BagType>4</BagType>
+        <Consumable />
+        <Activate id="Elder Wine Cellar Portal" ext="true">Create</Activate>
+      </Object>
+    </ItemGroup>
+
+<ItemGroup type="Wall">
+
+<Object type="0x3500" id="n Magma Wall">
+    <Class>Wall</Class>
+    <Texture>
+      <File>extraEnvironment</File><Index>0x20d</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>extraEnvironment</File><Index>0x20e</Index>
+      </Texture>
+    </Top>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+
+</ItemGroup>
+
+</Objects>
+

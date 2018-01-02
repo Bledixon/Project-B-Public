@@ -1,0 +1,764 @@
+﻿<Objects>
+
+<Object type="0x4000" id="Elder Lich">
+  <Group>Heros</Group>
+  <Enemy />
+  <Class>Character</Class>
+  <AnimatedTexture>
+    <File>chars8x8rHero1</File>
+    <Index>0x06</Index>
+  </AnimatedTexture>
+  <HitSound>monster/skeletons_hit</HitSound>
+  <DeathSound>monster/skeletons_death</DeathSound>
+  <Size>170</Size>
+  <MaxHitPoints>300000</MaxHitPoints>
+  <Defense>7</Defense>
+  <Hero />
+  <Quest />
+  <Level>9</Level>
+  <XpMult>0.0</XpMult>
+  <PerRealmMax>3</PerRealmMax>
+
+  <Projectile id="0">
+    <ObjectId>Blue Magic</ObjectId>
+    <Damage>125</Damage>
+    <Speed>80</Speed>
+    <LifetimeMS>2200</LifetimeMS>
+    <Size>60</Size>
+    <MultiHit />
+  </Projectile>
+  <Projectile id="1">
+    <ObjectId>Blue Magic</ObjectId>
+    <Damage>160</Damage>
+    <Speed>60</Speed>
+    <LifetimeMS>2000</LifetimeMS>
+    <Size>110</Size>
+    <MultiHit />
+  </Projectile>
+
+
+</Object>
+
+
+<Object type="0x4001" id="Elder Actual Lich">
+  <DisplayId>Lich</DisplayId>
+  <Group>Heros</Group>
+  <Enemy />
+  <Class>Character</Class>
+  <AnimatedTexture>
+    <File>chars8x8rHero1</File>
+    <Index>0x06</Index>
+  </AnimatedTexture>
+  <HitSound>monster/skeletons_hit</HitSound>
+  <DeathSound>monster/skeletons_death</DeathSound>
+  <Size>170</Size>
+  <MaxHitPoints>11000</MaxHitPoints>
+  <Defense>107</Defense>
+  <Hero />
+  <Quest />
+  <Level>9</Level>
+  <XpMult>1.5</XpMult>
+
+
+  <Projectile id="0">
+    <ObjectId>Blue Magic</ObjectId>
+    <Damage>125</Damage>
+    <Speed>80</Speed>
+    <LifetimeMS>2200</LifetimeMS>
+    <Size>60</Size>
+    <MultiHit />
+  </Projectile>
+  <Projectile id="1">
+    <ObjectId>Blue Magic</ObjectId>
+    <Damage>160</Damage>
+    <Speed>60</Speed>
+    <LifetimeMS>2000</LifetimeMS>
+    <Size>110</Size>
+    <MultiHit />
+  </Projectile>
+
+
+</Object>
+
+
+<Object type="0x4002" id="Elder Phylactery Bearer">
+  <Group>Ghosts</Group>
+  <Enemy />
+  <Class>Character</Class>
+
+
+  <AnimatedTexture>
+    <File>chars16x16dEncounters</File>
+    <Index>3</Index>
+  </AnimatedTexture>
+  <HitSound>monster/ghosts_hit</HitSound>
+  <DeathSound>monster/ghosts_death</DeathSound>
+
+
+  <Size>130</Size>
+  <MaxHitPoints>16000</MaxHitPoints>
+  <Defense>104</Defense>
+  <XpMult>0.3</XpMult>
+
+
+  <Projectile id="0">
+    <ObjectId>Sparkling Bolt</ObjectId>
+    <Damage>135</Damage>
+    <Speed>60</Speed>
+    <Size>50</Size>
+    <LifetimeMS>2000</LifetimeMS>
+  </Projectile>
+  <Projectile id="1">
+    <ObjectId>Grey Boomerang</ObjectId>
+    <Damage>160</Damage>
+    <Speed>70</Speed>
+    <Size>80</Size>
+    <LifetimeMS>2000</LifetimeMS>
+  </Projectile>
+
+
+</Object>
+
+
+<Object type="0x4003" id="Elder Haunted Spirit">
+  <Group>Ghosts</Group>
+  <Enemy />
+  <Class>Character</Class>
+
+
+  <AnimatedTexture>
+    <File>chars8x8dEncounters</File>
+    <Index>2</Index>
+  </AnimatedTexture>
+  <HitSound>monster/ghosts_hit</HitSound>
+  <DeathSound>monster/ghosts_death</DeathSound>
+
+
+  <Size>150</Size>
+  <MaxHitPoints>40000</MaxHitPoints>
+  <Defense>118</Defense>
+  <XpMult>0.3</XpMult>
+
+
+  <Projectile id="0">
+    <ObjectId>Eldritch Zap</ObjectId>
+    <Damage>190</Damage>
+    <Speed>70</Speed>
+    <Size>90</Size>
+    <LifetimeMS>1500</LifetimeMS>
+  </Projectile>
+
+
+</Object>
+
+  <Object type="0x4004" id="n Elder Event Spawner">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x0e</Index>
+    </Texture>
+    <Size>0</Size>
+    <Defense>0</Defense>
+    <XpMult>0.0</XpMult>
+    <MaxHitPoints>9999999</MaxHitPoints>
+    <NoMiniMap />
+  </Object>
+
+  <Object type="0x4005" id="Elder Mummy">
+    <Group>Mummies</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rHero1</File>
+      <Index>0x07</Index>
+    </AnimatedTexture>
+    <HitSound>monster/mummies_hit</HitSound>
+    <DeathSound>monster/mummies_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>140</MaxHitPoints>
+    <Defense>0</Defense>
+    <XpMult>0.1</XpMult>
+    <Projectile id="0">
+      <ObjectId>Green Magic</ObjectId>
+      <Damage>30</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x4006" id="Elder Mummy King">
+    <Group>Mummies</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rHero1</File>
+      <Index>0x08</Index>
+    </AnimatedTexture>
+    <HitSound>monster/mummies_hit</HitSound>
+    <DeathSound>monster/mummies_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>140</MaxHitPoints>
+    <Defense>0</Defense>
+    <XpMult>0.1</XpMult>
+    <Projectile id="0">
+      <ObjectId>Green Magic</ObjectId>
+      <Damage>40</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x4007" id="Elder Mummy Pharaoh">
+    <Group>Mummies</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rHero1</File>
+      <Index>0x09</Index>
+    </AnimatedTexture>
+    <HitSound>monster/mummies_hit</HitSound>
+    <DeathSound>monster/mummies_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>140</MaxHitPoints>
+    <Defense>0</Defense>
+    <XpMult>0.1</XpMult>
+    <Projectile id="0">
+      <ObjectId>Green Magic</ObjectId>
+      <Damage>40</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+  </Object>
+  
+<Object type="0x4008" id="Elder Grand Sphinx">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File><Index>4</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ghost_god_hit</HitSound>
+    <DeathSound>monster/ghost_god_death</DeathSound>
+    <Size>220</Size>
+    <MaxHitPoints>155000</MaxHitPoints>
+    <Defense>125</Defense>
+    <God />
+    <StasisImmune />
+    <Hero />
+    <Quest />
+    <Encounter />
+    <Level>20</Level>
+    <XpMult>0.3</XpMult>
+    <PerRealmMax>20</PerRealmMax>
+
+
+    <Projectile id="0">
+      <ObjectId>Fireball</ObjectId>
+      <Speed>80</Speed>
+      <Damage>185</Damage>
+      <Size>160</Size>
+      <LifetimeMS>1350</LifetimeMS>
+      <ConditionEffect duration="7">Weak</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Zedshot</ObjectId>
+      <Speed>55</Speed>
+      <Damage>250</Damage>
+      <Size>180</Size>
+      <LifetimeMS>1900</LifetimeMS>
+      <ConditionEffect duration="4">Blind</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Hellfire</ObjectId>
+      <Speed>67</Speed>
+      <Damage>215</Damage>
+      <Size>175</Size>
+      <LifetimeMS>1600</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+
+
+  </Object>
+
+  <Object type="0x4009" id="Elder Horrid Reaper">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8dEncounters</File><Index>8</Index>
+    </AnimatedTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <Size>150</Size>
+    <MaxHitPoints>6000</MaxHitPoints>
+    <Defense>15</Defense>
+    <XpMult>0.75</XpMult>
+
+
+    <Projectile id="0">
+      <ObjectId>Black Missile</ObjectId>
+      <Speed>70</Speed>
+      <Damage>180</Damage>
+      <Size>160</Size>
+      <LifetimeMS>1550</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Fire Missile</ObjectId>
+      <Speed>90</Speed>
+      <Damage>165</Damage>
+      <Size>130</Size>
+      <LifetimeMS>1400</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+
+
+  </Object>
+
+  <Object type="0x4010" id="Elder Septavius the Ghost God">
+      <Enemy />
+      <Class>Character</Class>
+      <Texture>
+        <File>lofiChar216x16</File>
+        <Index>0x30</Index>
+      </Texture>
+      <HitSound>monster/ghost_god_hit</HitSound>
+      <DeathSound>monster/ghost_god_death</DeathSound>
+      <Size>150</Size>
+      <MaxHitPoints>200000</MaxHitPoints>
+      <Defense>120</Defense>
+      <Flying />
+      <Quest />
+      <God />
+      <StasisImmune />
+      <Level>1</Level>
+      <XpMult>0.7</XpMult>
+      <NoArticle />
+
+
+      <Projectile id="0">
+        <ObjectId>White Bullet</ObjectId>
+        <Speed>80</Speed>
+        <Damage>175</Damage>
+        <Size>200</Size>
+        <LifetimeMS>1500</LifetimeMS>
+        <ArmorPiercing />
+        <MultiHit />
+      </Projectile>
+      <Projectile id="1">
+        <ObjectId>Brown Magic</ObjectId>
+        <Speed>90</Speed>
+        <MinDamage>140</MinDamage>
+        <MaxDamage>145</MaxDamage>
+        <Size>160</Size>
+        <LifetimeMS>2600</LifetimeMS>
+        <MultiHit />
+        <Boomerang />
+        <Amplitude>2</Amplitude>
+        <Frequency>2.5</Frequency>
+        <ConditionEffect duration="1">Quiet</ConditionEffect>
+      </Projectile>
+      <Projectile id="2">
+        <ObjectId>Yellow Star</ObjectId>
+        <Speed>57</Speed>
+        <Damage>125</Damage>
+        <Size>160</Size>
+        <LifetimeMS>3000</LifetimeMS>
+        <MultiHit />
+        <ConditionEffect duration="1.5">Confused</ConditionEffect>
+      </Projectile>
+      <Projectile id="4">
+        <ObjectId>White Bullet</ObjectId>
+        <Speed>40</Speed>
+        <Damage>160</Damage>
+        <Size>240</Size>
+        <LifetimeMS>4000</LifetimeMS>
+        <MultiHit />
+      </Projectile>
+      <Projectile id="5">
+        <ObjectId>White Bullet</ObjectId>
+        <Speed>70</Speed>
+        <Damage>120</Damage>
+        <Size>240</Size>
+        <LifetimeMS>2000</LifetimeMS>
+        <MultiHit />
+      </Projectile>
+
+
+    </Object>
+    <Object type="0x4011" id="Elder Ghost Warrior of Septavius">
+      <Group>Lair Ghosts</Group>
+      <Enemy />
+      <Class>Character</Class>
+      <Texture>
+        <File>lofiChar8x8</File><Index>0x7b</Index>
+      </Texture>
+      <HitSound>monster/ghosts_hit</HitSound>
+      <DeathSound>monster/ghosts_death</DeathSound>
+      <Size>150</Size>
+      <MaxHitPoints>6000</MaxHitPoints>
+      <Defense>120</Defense>
+      <XpMult>0</XpMult>
+      <Projectile id="0">
+        <ObjectId>Blade</ObjectId>
+        <Damage>135</Damage>
+        <Speed>120</Speed>
+        <LifetimeMS>400</LifetimeMS>
+      </Projectile>
+    </Object>
+    <Object type="0x4012" id="Elder Ghost Mage of Septavius">
+      <Group>Lair Ghosts</Group>
+      <Enemy />
+      <Class>Character</Class>
+      <Texture>
+        <File>lofiChar8x8</File><Index>0x7c</Index>
+      </Texture>
+      <HitSound>monster/ghosts_hit</HitSound>
+      <DeathSound>monster/ghosts_death</DeathSound>
+      <Size>150</Size>
+      <MaxHitPoints>6000</MaxHitPoints>
+      <Defense>120</Defense>
+      <XpMult>0</XpMult>
+      <Projectile id="0">
+        <ObjectId>Blue Bolt</ObjectId>
+        <Damage>140</Damage>
+        <Speed>50</Speed>
+        <LifetimeMS>3000</LifetimeMS>
+      </Projectile>
+    </Object>
+    <Object type="0x4013" id="Elder Ghost Rogue of Septavius">
+      <Group>Lair Ghosts</Group>
+      <Enemy />
+      <Class>Character</Class>
+      <Texture>
+        <File>lofiChar8x8</File><Index>0x7d</Index>
+      </Texture>
+      <HitSound>monster/ghosts_hit</HitSound>
+      <DeathSound>monster/ghosts_death</DeathSound>
+      <Size>150</Size>
+      <MaxHitPoints>6000</MaxHitPoints>
+      <Defense>120</Defense>
+      <XpMult>0</XpMult>
+      <Projectile id="0">
+        <ObjectId>Blade</ObjectId>
+        <Damage>130</Damage>
+        <Speed>120</Speed>
+        <LifetimeMS>400</LifetimeMS>
+      </Projectile>
+    </Object>
+
+    <Object type="0x4014" id="Elder Archdemon Malphas">
+    		<Group>Demons</Group>
+    		<Enemy/>
+    		<Class>Character</Class>
+    		<Flying/>
+    		<Quest/>
+    		<God/>
+    		<StasisImmune/>
+
+
+    		<AnimatedTexture><File>chars16x16dEncounters</File><Index>0</Index></AnimatedTexture>
+    		<HitSound>monster/demons_hit</HitSound>
+    		<DeathSound>monster/demons_death</DeathSound>
+
+
+    		<MaxHitPoints>200000</MaxHitPoints>
+    		<Size>150</Size>
+    		<Defense>120</Defense>
+    		<XpMult>0.7</XpMult>
+
+
+    		<Projectile id="0">
+    			<ObjectId>White Bullet</ObjectId>
+    			<Speed>75</Speed>
+    			<Damage>160</Damage>
+    			<Size>120</Size>
+    			<LifetimeMS>1500</LifetimeMS>
+    			<ArmorPiercing/>
+    			<MultiHit/>
+    		</Projectile>
+    		<Projectile id="2">
+    			<ObjectId>Silver Shield</ObjectId>
+    			<Speed>42</Speed>
+    			<Damage>165</Damage>
+    			<Size>130</Size>
+    			<LifetimeMS>3000</LifetimeMS>
+    			<MultiHit/>
+    			<ConditionEffect duration="6">Weak</ConditionEffect>
+    		</Projectile>
+    		<Projectile id="3">
+    			<ObjectId>White Bullet</ObjectId>
+    			<Speed>40</Speed>
+    			<Damage>300</Damage>
+    			<Size>300</Size>
+    			<LifetimeMS>4000</LifetimeMS>
+    			<MultiHit/>
+    		</Projectile>
+    		<Projectile id="4">
+    			<ObjectId>Silver Shield</ObjectId>
+    			<Speed>60</Speed>
+    			<Damage>220</Damage>
+    			<Size>240</Size>
+    			<LifetimeMS>3000</LifetimeMS>
+    			<MultiHit/>
+    			<ConditionEffect duration="6">Weak</ConditionEffect>
+    		</Projectile>
+
+    	</Object>
+  
+<Object type="0x4015" id="Elder Malphas Missile">
+    <Group>Missiles</Group>
+    <Enemy />
+    <Class>Character</Class>
+
+
+    <Texture>
+      <File>lofiObj2</File><Index>0x47</Index>
+    </Texture>
+
+
+    <Projectile id="0">
+      <ObjectId>Red Star</ObjectId>
+      <Speed>66</Speed>
+      <Damage>140</Damage>
+      <Size>150</Size>
+      <LifetimeMS>760</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+
+
+    <MaxHitPoints>40000</MaxHitPoints>
+    <Size>190</Size>
+    <Defense>130</Defense>
+    <XpMult>0.0</XpMult>
+
+
+  </Object>
+  
+<Object type="0x4016" id="Elder Stheno the Snake Queen">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar216x16</File><Index>0x33</Index>
+    </Texture>
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/snake_queen_death</DeathSound>
+    <Size>150</Size>
+    <MaxHitPoints>200000</MaxHitPoints>
+    <Defense>190</Defense>
+    <Enemy />
+    <God />
+    <StasisImmune />
+    <Quest />
+    <Level>1</Level>
+    <XpMult>0.7</XpMult>
+    <NoArticle />
+
+    <Projectile id="0">
+      <ObjectId>Blade</ObjectId>
+      <Speed>70</Speed>
+      <Damage>200</Damage>
+      <Size>150</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>White Bullet</ObjectId>
+      <Speed>62</Speed>
+      <Damage>160</Damage>
+      <Size>120</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="3">Blind</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+
+
+  </Object>
+
+
+  <Object type="0x4017" id="Elder Stheno Pet">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File><Index>2</Index>
+    </AnimatedTexture>
+    <HitSound>monster/snakes_hit</HitSound>
+    <DeathSound>monster/snakes_death</DeathSound>
+    <Size>70</Size>
+    <MaxHitPoints>25000</MaxHitPoints>
+    <Defense>71</Defense>
+    <Enemy />
+    <Level>1</Level>
+    <XpMult>0.1</XpMult>
+
+    <Projectile id="0">
+      <ObjectId>Aqua Missile</ObjectId>
+      <Speed>60</Speed>
+      <Damage>175</Damage>
+      <Size>150</Size>
+      <LifetimeMS>900</LifetimeMS>
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+
+
+  </Object>
+
+
+  <Object type="0x4018" id="Elder Stheno Swarm">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8dEncounters</File><Index>3</Index>
+    </AnimatedTexture>
+    <HitSound>monster/snakes_hit</HitSound>
+    <DeathSound>monster/snakes_death</DeathSound>
+    <Size>150</Size>
+    <MaxHitPoints>10000</MaxHitPoints>
+    <Defense>40</Defense>
+    <Enemy />
+    <Level>1</Level>
+    <XpMult>0.1</XpMult>
+
+    <Projectile id="0">
+      <ObjectId>Aqua Missile</ObjectId>
+      <Speed>60</Speed>
+      <Damage>140</Damage>
+      <Size>140</Size>
+      <LifetimeMS>1000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+
+
+  </Object>
+
+  <Object type="0x4019" id="Mellow the Wasp Queen">
+    <Group>Wasps</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16custom</File>
+      <Index>22</Index>
+    </AnimatedTexture>
+    <HitSound>monster/spiders_hit</HitSound>
+    <DeathSound>monster/spiders_death</DeathSound>
+    <Size>200</Size>
+    <MaxHitPoints>200000</MaxHitPoints>
+    <Defense>100</Defense>
+    <Quest />
+    <Level>120</Level>
+    <XpMult>2.3</XpMult>
+    <Flying />
+
+    <Projectile id="0">
+      <ObjectId>Yellow Missile</ObjectId>
+      <Damage>220</Damage>
+      <Speed>75</Speed>
+      <Size>80</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <ConditionEffect duration="5">Slowed</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Red Star</ObjectId>
+      <Damage>60</Damage>
+      <Speed>75</Speed>
+      <Size>80</Size>
+      <MultiHit />
+      <LifetimeMS>1200</LifetimeMS>
+      <ConditionEffect duration="3">Weak</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Violet Missile</ObjectId>
+      <Damage>200</Damage>
+      <Speed>65</Speed>
+      <Size>120</Size>
+      <LifetimeMS>2200</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+
+
+  </Object>
+
+  <Object type="0x4020" id="Mellow's Worker Wasp">
+    <Group>Wasps</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rMid2</File>
+      <Index>8</Index>
+    </AnimatedTexture>
+    <HitSound>monster/spiders_hit</HitSound>
+    <DeathSound>monster/spiders_death</DeathSound>
+    <Size>90</Size>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <Defense>20</Defense>
+    <XpMult>0.5</XpMult>
+    <Flying />
+
+    <Projectile id="0">
+      <ObjectId>Yellow Missile</ObjectId>
+      <Damage>16</Damage>
+      <Speed>75</Speed>
+      <Size>60</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <ConditionEffect duration="2">Weak</ConditionEffect>
+    </Projectile>
+
+  </Object>
+
+  <Object type="0x4021" id="Mellow's Warrior Wasp">
+    <Group>Wasps</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rMid2</File>
+      <Index>9</Index>
+    </AnimatedTexture>
+    <HitSound>monster/spiders_hit</HitSound>
+    <DeathSound>monster/spiders_death</DeathSound>
+    <Size>90</Size>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <Defense>20</Defense>
+    <XpMult>0.5</XpMult>
+    <Flying />
+
+    <Projectile id="0">
+      <ObjectId>Blue Missile</ObjectId>
+      <Damage>100</Damage>
+      <Speed>75</Speed>
+      <Size>80</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <ConditionEffect duration="3">Armor Broken</ConditionEffect>
+    </Projectile>
+
+
+  </Object>
+
+  <Object type="0x4022" id="Mellow's Servant Wasp">
+    <Group>Wasps</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rMid2</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <HitSound>monster/spiders_hit</HitSound>
+    <DeathSound>monster/spiders_death</DeathSound>
+    <Size>90</Size>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <Defense>20</Defense>
+    <XpMult>0.5</XpMult>
+    <Flying />
+
+    <Projectile id="0">
+      <ObjectId>Blue Missile</ObjectId>
+      <Damage>100</Damage>
+      <Speed>75</Speed>
+      <Size>80</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <ConditionEffect duration="3">Blind</ConditionEffect>
+    </Projectile>
+
+
+  </Object>
+
+</Objects>

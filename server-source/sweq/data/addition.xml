@@ -1,0 +1,147 @@
+<Addition>
+  <!--    
+    Note that the client should support 2 byte tile id, but the protocol doesn't support
+    Due to the same reason, some kind of object can only be within signed part because
+    the client read them as signed short then cast to int, making them becomes negative
+    number:
+      Character: UpdatePacket -> Signed
+           Item: ObjectStats  -> Full    BUT if it creates projectile (e.g. spell, quiver) THEN ShootPacket -> Signed
+    Environment: UpdatePacket -> Signed
+     Projectile: Client side  -> Full
+        Textile: ObjectStats  -> Full
+    Auto assign feature takes care of the limitations.
+    
+    Also to use remote texture, the client should have Parameters._-IO call patch to
+    true in assembleegameclient.objects._-ZH and the texture should stored in 32 bits
+    png format.
+    
+    And remember add 'ext' attributes
+    
+    Available Tile IDs : 
+    08 09 0a 0b 0d 0e 0f
+    10 11 12
+    20 27 28 29 2a 2b
+    37 38 39 3a 3b 3d 3e 3f
+    44 45 4a 4b 4c 4d 4e 4f
+    59 5a 5b 5c 5d 5e 5f
+    6d 6e 6f
+    71
+    86 87 88 89 8a 8b 8c 8d 8e 8f
+    ab ac ae af
+    b0 ba bb
+    c1 c2
+    db dc dd de df
+  -->
+    
+    <Object type="0x3004" id="Mysterious Head">
+      <Enemy />
+      <Group>Mysterious</Group>
+      <Class>Character</Class>
+      <AnimatedTexture>
+        <File>chars8x8dEncounters</File>
+        <Index>21</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </AltTexture>
+      <HitSound>monster/abyss_demons_hit</HitSound>
+      <DeathSound>monster/abyss_demons_death</DeathSound>
+      <Size>200</Size>
+      <MaxHitPoints>200000</MaxHitPoints>
+      <Defense>30</Defense>
+      <Projectile id="0">
+        <ObjectId>White Flame</ObjectId>
+        <Damage>100</Damage>
+        <Speed>70</Speed>
+        <LifetimeMS>3000</LifetimeMS>
+        <Size>150</Size>
+        <ConditionEffect duration="5">Dazed</ConditionEffect>
+      </Projectile>
+  	  <Projectile id="1">
+        <ObjectId>White Flame</ObjectId>
+        <Damage>120</Damage>
+        <Speed>120</Speed>
+        <LifetimeMS>30000</LifetimeMS>
+        <Size>150</Size>
+        <ConditionEffect duration="5">Armor Broken</ConditionEffect>
+      </Projectile>
+    </Object>
+    <Object type="0x3005" id="Mysterious Hand">
+      <Enemy />
+      <Class>Character</Class>
+      <AnimatedTexture>
+        <File>chars8x8dEncounters</File>
+        <Index>20</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </AltTexture>
+      <HitSound>monster/abyss_demons_hit</HitSound>
+      <DeathSound>monster/abyss_demons_hit</DeathSound>
+      <Size>200</Size>
+      <MaxHitPoints>30000</MaxHitPoints>
+      <Defense>10</Defense>
+      <Projectile id="0">
+        <ObjectId>Black Magic</ObjectId>
+        <Damage>80</Damage>
+        <Speed>50</Speed>
+        <LifetimeMS>3000</LifetimeMS>
+        <Size>200</Size>
+        <ConditionEffect duration="3">Weak</ConditionEffect>
+      </Projectile>
+    </Object>
+    
+  <Item>
+    <ItemGroup type="testing">
+
+      <Object type="0x2018" id="Potion of Maxy" ext="true">
+        <Class>Equipment</Class>
+        <Item />
+        <RemoteTexture>
+          <Instance>production</Instance>
+          <Id>925228107</Id>
+        </RemoteTexture>
+        <SlotType>10</SlotType>
+        <Tier>4</Tier>
+        <Description>A tasty, yummy, delicious extract of various stat potions.</Description>
+        <Sound>use_potion</Sound>
+        <Activate stat="20" amount="1000">IncrementStat</Activate>
+        <Activate stat="21" amount="1000">IncrementStat</Activate>
+        <Activate stat="22" amount="1000">IncrementStat</Activate>
+        <Activate stat="26" amount="1000">IncrementStat</Activate>
+        <Activate stat="27" amount="1000">IncrementStat</Activate>
+        <Activate stat="28" amount="1000">IncrementStat</Activate>
+        <Activate stat="0" amount="1000">IncrementStat</Activate>
+        <Activate stat="3" amount="1000">IncrementStat</Activate>
+        <Consumable />
+        <Potion />
+        <BagType>4</BagType>
+      </Object>
+      
+      <Object type="0x22fe" id="Banana" ext="true">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+          <File>lofiObj3</File>
+          <Index>0x22e</Index>
+        </Texture>
+        <SlotType>10</SlotType>
+        <Description>Yellow thing</Description>
+        <Sound>use_key</Sound>
+        <BagType>0</BagType>
+        <Consumable />
+        <Activate id="Banana Phone">SwitchMusic</Activate>
+      </Object>
+    </ItemGroup>
+  </Item>
+
+
+
+
+</Addition>

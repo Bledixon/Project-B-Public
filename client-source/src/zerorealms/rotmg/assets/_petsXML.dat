@@ -1,0 +1,439 @@
+<Objects>
+  <Object type="0x2389" id="The Dream Generator">
+    <DisplayId>Dead Horse</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>47</Index>
+    </AnimatedTexture>
+    <ScaleValue>3</ScaleValue>
+    <SlotType>10</SlotType>
+    <Description>A cute and affectionate... omg it's dead</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <ExtraTooltipData>
+      <EffectInfo name="Rarity" description="Custom"/>
+      <EffectInfo name="HP Heal" description="200"/>
+      <EffectInfo name="MP Heal" description="69"/>
+    </ExtraTooltipData>
+    <AdminOnly/>
+    <Activate objectId="Admin Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Cooldown>10</Cooldown>
+  </Object>
+  <Object type="0x238a" id="Admin Pet">
+    <DisplayId>Dead Horse</DisplayId>
+    <Class>Character</Class>
+    <Group>Hexable</Group>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>47</Index>
+    </AnimatedTexture>
+    <MaxHitPoints>9999999</MaxHitPoints>
+    <NoMiniMap />
+    <Size>100</Size>
+  </Object>
+<Object type="0x1500" id="The Bunny Generator">
+  <DisplayId>Bunny</DisplayId>
+  <Class>Equipment</Class>
+  <Item />
+  <AnimatedTexture>
+    <File>chars8x8rLow2</File>
+    <Index>4</Index>
+  </AnimatedTexture>
+  <SlotType>10</SlotType>
+  <Description>A cute and affectionate bunny, fluffy!</Description>
+  <Sound>spell/light_heal</Sound>
+  <InvUse />
+  <VaultItem />
+  <Soulbound />
+  <Consumable/>
+  <ExtraTooltipData>
+    <EffectInfo name="Rarity" description="Common"/>
+    <EffectInfo name="HP Heal" description="10"/>
+    <EffectInfo name="MP Heal" description="5"/>
+  </ExtraTooltipData>
+  <Activate objectId="Bunny Pet" cooldown="10">PermaPet</Activate>
+  <OldSound>use_potion</OldSound>
+</Object>
+<Object type="0x1501" id="Bunny Pet">
+  <DisplayId>Bunny</DisplayId>
+  <Class>Character</Class>
+  <Group>Hexable</Group>
+  <AnimatedTexture>
+    <File>chars8x8rLow2</File>
+    <Index>4</Index>
+  </AnimatedTexture>
+  <MaxHitPoints>9999999</MaxHitPoints>
+  <NoMiniMap />
+  <Size>60</Size>
+</Object>
+  <Object type="0x1502" id="The Goblin Mage Generator">
+    <DisplayId>Goblin Mage</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars8x8rLow1</File>
+      <Index>0x0b</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A cute and affectionate Goblin Mage, cute!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <Consumable/>
+    <ExtraTooltipData>
+      <EffectInfo name="Rarity" description="Uncommon"/>
+      <EffectInfo name="HP Heal" description="20"/>
+      <EffectInfo name="MP Heal" description="10"/>
+    </ExtraTooltipData>
+    <Activate objectId="Goblin Mage Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Cooldown>10</Cooldown>
+  </Object>
+  <Object type="0x1503" id="Goblin Mage Pet">
+    <DisplayId>Goblin Mage</DisplayId>
+    <Class>Character</Class>
+    <Group>Hexable</Group>
+    <AnimatedTexture>
+      <File>chars8x8rLow1</File>
+      <Index>0x0b</Index>
+    </AnimatedTexture>
+    <MaxHitPoints>9999999</MaxHitPoints>
+    <NoMiniMap />
+    <Size>60</Size>
+  </Object>
+  <Object type="0x1504" id="The Lil Sumo Generator">
+    <DisplayId>Lil Sumo</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars8x8rLow2</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A cute and affectionate Lil Sumo, kinda fat tbh!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <Consumable/>
+    <ExtraTooltipData>
+      <EffectInfo name="Rarity" description="Rare"/>
+      <EffectInfo name="HP Heal" description="30"/>
+      <EffectInfo name="MP Heal" description="15"/>
+    </ExtraTooltipData>
+    <Activate objectId="Lil Sumo Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Cooldown>10</Cooldown>
+  </Object>
+  <Object type="0x1505" id="Lil Sumo Pet">
+    <DisplayId>Lil Sumo</DisplayId>
+    <Class>Character</Class>
+    <Group>Hexable</Group>
+    <AnimatedTexture>
+      <File>chars8x8rLow2</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <MaxHitPoints>9999999</MaxHitPoints>
+    <NoMiniMap />
+    <Size>60</Size>
+  </Object>
+  <Object type="0x1506" id="The Giant Crab Generator">
+    <DisplayId>Giant Crab</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <ScaleValue>3</ScaleValue>
+    <SlotType>10</SlotType>
+    <Description>A cute and affectionate Giant Crab, holy moly!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <Consumable/>
+    <ExtraTooltipData>
+      <EffectInfo name="Rarity" description="Legendary"/>
+      <EffectInfo name="HP Heal" description="40"/>
+      <EffectInfo name="MP Heal" description="20"/>
+    </ExtraTooltipData>
+    <Activate objectId="Giant Crab Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Cooldown>10</Cooldown>
+  </Object>
+  <Object type="0x1507" id="Giant Crab Pet">
+    <DisplayId>Giant Crab</DisplayId>
+    <Class>Character</Class>
+    <Group>Hexable</Group>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <MaxHitPoints>9999999</MaxHitPoints>
+    <NoMiniMap />
+    <Size>100</Size>
+  </Object>
+  <Object type="0x1508" id="The Start Generator">
+    <DisplayId>Rock</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiEnvironment</File>
+      <Index>0x60</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This is your first pet!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <Consumable/>
+    <ExtraTooltipData>
+      <EffectInfo name="Rarity" description="Common"/>
+      <EffectInfo name="HP Heal" description="10"/>
+      <EffectInfo name="MP Heal" description="5"/>
+    </ExtraTooltipData>
+    <Activate objectId="Rock Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Cooldown>10</Cooldown>
+  </Object>
+  <Object type="0x1509" id="Rock Pet">
+    <DisplayId>Bunny</DisplayId>
+    <Class>Character</Class>
+    <Group>Hexable</Group>
+    <Texture>
+      <File>lofiEnvironment</File>
+      <Index>0x60</Index>
+    </Texture>
+    <MaxHitPoints>9999999</MaxHitPoints>
+    <NoMiniMap />
+    <Size>100</Size>
+  </Object>
+  <Object type="0x1510" id="Donor Pet #1">
+    <DisplayId>Rarity: Common</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars8x8rBeach</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Donor Only!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <Consumable/>
+    <ExtraTooltipData>
+      <EffectInfo name="Rarity" description="Common"/>
+      <EffectInfo name="HP Heal" description="14"/>
+      <EffectInfo name="MP Heal" description="3"/>
+    </ExtraTooltipData>
+    <Activate objectId="Rock Pet1" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Cooldown>10</Cooldown>
+  </Object>
+  <Object type="0x1511" id="Rock Pet1">
+    <DisplayId>Sheep</DisplayId>
+    <Class>Character</Class>
+    <Group>Hexable</Group>
+    <AnimatedTexture>
+      <File>chars8x8rBeach</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <MaxHitPoints>9999999</MaxHitPoints>
+    <NoMiniMap />
+    <Size>100</Size>
+  </Object>
+  <Object type="0x1512" id="Donor Pet #2">
+    <DisplayId>Rarity: Uncommon</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x0f</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Donor only!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <Consumable/>
+    <ExtraTooltipData>
+      <EffectInfo name="Rarity" description="Uncommon"/>
+      <EffectInfo name="HP Heal" description="23"/>
+      <EffectInfo name="MP Heal" description="8"/>
+    </ExtraTooltipData>
+    <Activate objectId="Rock Pet2" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Cooldown>10</Cooldown>
+  </Object>
+  <Object type="0x1513" id="Rock Pet2">
+    <DisplayId>Vault Chest</DisplayId>
+    <Class>Character</Class>
+    <Group>Hexable</Group>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x0f</Index>
+    </Texture>
+    <MaxHitPoints>9999999</MaxHitPoints>
+    <NoMiniMap />
+    <Size>100</Size>
+  </Object>
+  <Object type="0x1514" id="Donor Pet #3">
+    <DisplayId>Rarity: Rare</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj4</File>
+      <Index>0x94</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Donor Only!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <Consumable/>
+    <ExtraTooltipData>
+      <EffectInfo name="Rarity" description="Rare"/>
+      <EffectInfo name="HP Heal" description="40"/>
+      <EffectInfo name="MP Heal" description="17"/>
+    </ExtraTooltipData>
+    <Activate objectId="Rock Pet3" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Cooldown>10</Cooldown>
+  </Object>
+  <Object type="0x1515" id="Rock Pet3">
+    <DisplayId>White Bag</DisplayId>
+    <Class>Character</Class>
+    <Group>Hexable</Group>
+    <Texture>
+      <File>lofiObj4</File>
+      <Index>0x94</Index>
+    </Texture>
+    <MaxHitPoints>9999999</MaxHitPoints>
+    <NoMiniMap />
+    <Size>80</Size>
+  </Object>
+  <Object type="0x1516" id="Donor Pet #4">
+    <DisplayId>Rarity: Legendary</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Donor Only!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <Consumable/>
+    <ScaleValue>3</ScaleValue>
+    <ExtraTooltipData>
+      <EffectInfo name="Rarity" description="Legendary"/>
+      <EffectInfo name="HP Heal" description="69"/>
+      <EffectInfo name="MP Heal" description="33"/>
+    </ExtraTooltipData>
+    <Activate objectId="Rock Pet4" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Cooldown>10</Cooldown>
+  </Object>
+  <Object type="0x1517" id="Rock Pet4">
+    <DisplayId>Stone Guardian</DisplayId>
+    <Class>Character</Class>
+    <Group>Hexable</Group>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <MaxHitPoints>9999999</MaxHitPoints>
+    <NoMiniMap />
+    <Size>100</Size>
+  </Object>
+  <Object type="0x1518" id="Donor Pet #5">
+    <DisplayId>Rarity: Divine</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16custom</File>
+      <Index>21</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Donor Only!</Description>
+    <Sound>spell/light_heal</Sound>
+    <ScaleValue>3</ScaleValue>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <Consumable/>
+    <ExtraTooltipData>
+      <EffectInfo name="Rarity" description="Divine"/>
+      <EffectInfo name="HP Heal" description="90"/>
+      <EffectInfo name="MP Heal" description="45"/>
+    </ExtraTooltipData>
+    <Cooldown>10</Cooldown>
+    <Activate objectId="Rock Pet5" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1519" id="Rock Pet5">
+    <DisplayId>Ruby Spirit</DisplayId>
+    <Class>Character</Class>
+    <Group>Hexable</Group>
+    <AnimatedTexture>
+      <File>chars16x16custom</File>
+      <Index>21</Index>
+    </AnimatedTexture>
+    <MaxHitPoints>9999999</MaxHitPoints>
+    <NoMiniMap />
+    <Size>100</Size>
+  </Object>
+  <Object type="0x1520" id="Bledixon Pet 2 Generator">
+      <DisplayId>$$$</DisplayId>
+      <Class>Equipment</Class>
+      <Item />
+      <AnimatedTexture>
+        <File>chars16x16custom</File>
+        <Index>24</Index>
+      </AnimatedTexture>
+      <SlotType>10</SlotType>
+      <Description>Donor Only!</Description>
+      <Sound>spell/light_heal</Sound>
+      <ScaleValue>3</ScaleValue>
+      <InvUse />
+      <VaultItem />
+      <Soulbound />
+      <Consumable/>
+      <ExtraTooltipData>
+        <EffectInfo name="Rarity" description="Admin"/>
+        <EffectInfo name="HP Heal" description="200"/>
+        <EffectInfo name="MP Heal" description="69"/>
+      </ExtraTooltipData>
+      <Cooldown>10</Cooldown>
+      <Activate objectId="Bledixon New Year Dragon" cooldown="10">PermaPet</Activate>
+      <OldSound>use_potion</OldSound>
+    </Object>
+    <Object type="0x1521" id="Bledixon New Year Dragon">
+      <DisplayId>New Year's Dragon</DisplayId>
+      <Class>Character</Class>
+      <Group>Hexable</Group>
+      <AnimatedTexture>
+        <File>chars16x16custom</File>
+        <Index>24</Index>
+      </AnimatedTexture>
+      <MaxHitPoints>9999999</MaxHitPoints>
+      <NoMiniMap />
+      <Size>100</Size>
+    </Object>
+
+</Objects>
