@@ -38,6 +38,6 @@ You are free to use this source if you credit the following people:
 - Arcanuo
 - Jade
 - ossimc82
-and everyone who helped make this Project a realtiy.
+and everyone who helped make this Project a reality.
 
 Thanks for the ride.
